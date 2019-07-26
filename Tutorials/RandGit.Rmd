@@ -36,13 +36,31 @@ class: inverse, right
 
 ---
 
-# R
+# R & Git
 
-R is free open source statistical software.
+.pull-left[
+<img style="float: center; margin: 0px 0px 0px 0px;" src="pics/Rlogo.png" width="50" height="50"/>
+
+* free open source statistical software `r emo::ji("thumbsup")`
+* integrate easily with other languages `r emo::ji("thumbsup")`
+* fantastic community `r emo::ji("smile")`
+
+
+]
+
+
+.pull-right[
+<img style="float: center; margin: 0px 0px 0px 0px;" src="pics/Github.png" width="50" height="50"/>
+
+* version control
+* platform for collaboration
+]
+
+
 
 ---
 
-# Git
+# RMarkdown
 
 
 ---
