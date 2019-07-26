@@ -32,22 +32,24 @@ class: inverse, right
 
 ## Using R & GitHub for Collaborative Work <br> UI R Users Group, satRday
 
-#### OWootomo O. E. <br> Olusoji O. D.  <br> Materials: https://github.com/R-Ibadan-Users-Group/BBNAIJA/tree/master/Tutorials
+#### Owotomo O. E. <br> Olusoji O. D.  <br> Materials: https://github.com/R-Ibadan-Users-Group/BBNAIJA/tree/master/Tutorials
 
 ---
 
-# 
+# R
 
 ---
 
-# 
+# Git
 
 
 ---
 
-# 
+# The Bromance Made in Heaven
 
 ---
 
-#
+# Let's Get Started
+
+
 
