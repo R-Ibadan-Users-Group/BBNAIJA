@@ -1,30 +1,53 @@
 ---
-title: "Working with RStudio & GitHub"
+title: "Working with R & GitHub in RStudio"
 author: "Olusoji Oluwafemi Daniel"
 date: "23/07/2019"
-output: html_document
+output: 
+  xaringan::moon_reader:
+    css: ["default", "rladies", "rladies-fonts", "cols.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      beforeInit: "cols_macro.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE,	
+                      warning = FALSE)
+options(htmltools.dir.version = FALSE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+class: inverse, right
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+<div style="text-align: left">
+<img style="float: center; margin: 0px 15px 15px 0px;" src="pics/Rlogo.png" width="80" height="100"/>
+<img style="float: center; margin: 0px 15px 15px 0px;" src="pics/whiteplus.png" width="40" height="40"/>
+<img style="float: center; margin: 0px 15px 15px 0px;" src="pics/Octocat.png" width="80" height="100"/>
+</div>
 
-```{r cars}
-summary(cars)
-```
+## Using R & GitHub for Collaborative Work <br> UI R Users Group, satRday
 
-## Including Plots
+#### OWootomo O. E. <br> Olusoji O. D.  <br> Materials: https://github.com/R-Ibadan-Users-Group/BBNAIJA/tree/master/Tutorials
 
-You can also embed plots, for example:
+---
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+# 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+---
+
+# 
+
+
+---
+
+# 
+
+---
+
+#
+
