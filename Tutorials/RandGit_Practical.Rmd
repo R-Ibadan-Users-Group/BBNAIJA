@@ -1,4 +1,4 @@
---
+---
 title: "Working with R & GitHub in RStudio"
 author: "Olusoji Oluwafemi Daniel"
 date: "23/07/2019"
@@ -38,9 +38,21 @@ class: inverse, right
 
 # Creating a GitHub Repo
 
+![Creating A New Repo](animation/newrepo.gif)
+
+<div style="text-align: center"> Quite Easy, isn't it? `r emo::ji("face_savoring_food")` </div>
+
+* Create a repository (repo) in your GitHub account titled `First_Project` `r emo::ji("smile")`
+
 ---
 
 # Creating a RPoject in RStudio
+
+![Creating A New Repo](animation/newproject.gif)
+
+<div style="text-align: center"> Quite Easy, isn't it? `r emo::ji("face_savoring_food")` </div>
+
+* Create a Project in **RStudio** using the URL of the repo you created `r emo::ji("smile")`
 
 ---
 
@@ -50,6 +62,42 @@ class: inverse, right
 
 # Basic Git Commands
 
+** git add . ** `r emo::ji("point_right")` to add your local changes
+
+** git commit -m "description_message_here" ** `r emo::ji("point_right")` to commit the changes made
+
+** git push origin master ** `r emo::ji("point_right")` to push changes to the remote master repo
+
+### Some Bonus`r emo::ji("smile")`
+
+* Should you forget to add the remote URL or want to connect a local repo to a remote one;
+  - ** git remote add Repo_remote_URL** `r emo::ji("point_right")` adds a remote URL to your local repo.
+* Want to initialize a repo locally 
+  - ** git init ** `r emo::ji("point_right")` initialize a local repo.
+  
 ---
 
-# What about Collaboration (Understanding Branches)?
+# Let's Play with Some Data
+
+* Click this [Link](https://docs.google.com/forms/d/e/1FAIpQLSe6HtzYO7ylxx55F7nRqf8JFMGb6OhEQzspmIOjBVD9Zd2tdA/viewform?usp=sf_link) to help fill out a form.
+
+* Create a `Rmd` file named `first.Rmd` or download [here](). 
+
+
+
+---
+
+# What about Collaboration? (Understanding Branches)
+
+`Git branches` provides a framework for several people to work on the same project and file `r emo::ji("smiling_face_with_sunglasses")`
+
+* Let us begin with the `BBNAIJA` project (close the current project and do the following in a fresh `RStudio session`);
+
+    + Get an invitation to collaborate on a GitHub repo. (You are all being invited to the `BBNAIJA` project)
+
+    + Clone the repo by copying the `SSH` or `https` link and running **git pull SSH/https_link** in your `RStudio` terminal.
+
+    + Type **git checkout -b branch_name** in the `Terminal` to create your branch.
+    
+    + Use **git checkout branch_name** to switch between branches.
+
