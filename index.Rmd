@@ -1,0 +1,12 @@
+---
+title: "The BBNAIJA Project"
+author: "UI R Users Group"
+date: "27/07/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Connecting R to Twitter
