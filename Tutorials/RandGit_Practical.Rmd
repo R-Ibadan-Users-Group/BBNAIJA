@@ -58,6 +58,8 @@ class: inverse, right
 
 # Creating an RMarkdown File
 
+![Creating A New Repo](animation/newrmarkdown.gif)
+
 ---
 
 # Basic Git Commands
@@ -68,20 +70,27 @@ class: inverse, right
 
 ** git push origin master ** `r emo::ji("point_right")` to push changes to the remote master repo
 
+** git pull repo_url/repo_ssh** to pull changes made to the remote repo
+
 ### Some Bonus`r emo::ji("smile")`
 
 * Should you forget to add the remote URL or want to connect a local repo to a remote one;
   - ** git remote add Repo_remote_URL** `r emo::ji("point_right")` adds a remote URL to your local repo.
 * Want to initialize a repo locally 
   - ** git init ** `r emo::ji("point_right")` initialize a local repo.
+* To add all changes made except a file
+  - ** git add -u **
+  - ** git reset -- file_name **
+  - procedd with commit and push as usual
   
 ---
 
 # Let's Play with Some Data
 
-* Click this [Link](https://docs.google.com/forms/d/e/1FAIpQLSe6HtzYO7ylxx55F7nRqf8JFMGb6OhEQzspmIOjBVD9Zd2tdA/viewform?usp=sf_link) to help fill out a form.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6HtzYO7ylxx55F7nRqf8JFMGb6OhEQzspmIOjBVD9Zd2tdA/viewform?usp=sf_link/viewform?embedded=true" width="750" height="350" frameborder="0" marginheight="0" marginwidth="0">loading...</iframe>
 
-* Create a `Rmd` file named `first.Rmd` or download [here](). 
+<br>
+* Create a `Rmd` file named `first.Rmd`. Check the file [here](http://rpubs.com/oodaniel/UIsatRday) and try to make your `first.Rmd` look like the this. Populate the missing parts and report the analysis of the data gathered.
 
 
 
@@ -100,4 +109,39 @@ class: inverse, right
     + Type **git checkout -b branch_name** in the `Terminal` to create your branch.
     
     + Use **git checkout branch_name** to switch between branches.
+    
+    + use **git commit** as usual
+     
+    + use **git push origin branch_name** to push to your branch.
+    
+    + use **git pull origin friend_branch_name** to pull changes your friend's changes.
+    
+---
+    
+# Introducing The BBNAIJA Project
+
+* The project aims at the following;
+    - extract data about BBANIJA from a social-media platform.
+    - tidy and explore this data
+    - predict chances of nominated housemates getting evicted using machine learning
+    - write reports and build deliverables about this
+    
+* There is an `index.Rmd` file in the `BBNAIJA` repo you cloned which we will all be working on over the next few weeks.
+
+  - You will all be divided into groups and each group will be working on different sections after the next set of lessons (`tidyverse` & `twitteR`)
+
+* `r emo::ji("warning")` Don't merge your pull requests for the `BBNAIJA` projects, there is a special admin (`Abel`) to do that.
+
+---
+
+# Not to Forget the Thank Yous `r emo::ji("laughing")`
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+### ........................... Thank You all `r emo::ji("man_teacher")` `r emo::ji("woman_teacher")`.....................................
 
